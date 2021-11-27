@@ -104,7 +104,7 @@ body {
 
 .section-1 {
     height: 100vh;
-    background: url("../img/section1/slide.jpg") no-repeat;
+    background: url("../img/custom-images/5.jpg") no-repeat;
     background-position: top left;
     background-attachment: scroll;
     background-size: cover;
@@ -112,25 +112,26 @@ body {
 
 .section-1 .content {
     position: relative;
-    height: 100vh;
+    height: 90vh;
 }
 
 .wrap-content {
 
 
     position: absolute;
-    top: 50%;
+    top: 65%;
+  
     transform: translatey(-50%);
 }
 
 
 .wrap-content img {
 
-    width: 60%;
+    width: 50%;
     margin-top: 100px;
-    margin-left: 150px;
-    box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-    background: rgba(251, 254, 223, 0.47);
+    margin-left: 1px;
+    opacity: 0.3;
+    background: rgba(251, 254, 223, 0.932);
 }
 
 .text-box {
@@ -138,7 +139,7 @@ body {
     width: 70%;
     position: absolute;
     top: 42%;
-    left: 50%;
+    left: 30%;
     transform: translateX(-50%);
     text-align: center;
 }
@@ -212,7 +213,7 @@ body {
 
 
 .bridegroom {
-    background: url("../img/section2/he2.jpg");
+    background: url("../img/custom-images/24.jpg");
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
@@ -224,7 +225,7 @@ body {
 
 
 .bride {
-    background: url("../img/section2/she.jpg");
+    background: url("../img/custom-images/b.jpg");
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
@@ -1027,7 +1028,7 @@ body {
 
 .section-9 {
     background: #f59090;
-    background: url("../img/footer/footer-bg2.jpg");
+    background: url("../img/custom-images/15.jpg");
     background-size: cover;
     background-position: center;
     padding: 80px 0px;
