@@ -507,6 +507,15 @@
 			.addClass(this.options.loadedClass);
 	};
 
+	var comingSoon = "Coming Soon";
+	const customObj = {1 : '.', 2 : '..', 3 : '...', 4 : '....',5:""};
+	var temp ="";
+	setInterval(() => {
+		temp = customObj[temp.length + 1];
+		document.getElementById('comingSoon').innerHTML=`${comingSoon}${temp}`;
+	},500);
+
+
 	/**
 	 * Initializes the carousel.
 	 * @protected
