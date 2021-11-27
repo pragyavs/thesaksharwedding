@@ -774,6 +774,27 @@ body {
     padding-bottom: 60px;
     /* color: #ff4545; */
 }
+
+.hashtag h1 {
+    font-size: 35px;
+    /* font-family: 'Dancing Script', cursive; */
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 60px;
+    /* color: #ff4545; */
+}
+.hashtag h2::before {
+
+    content: "";
+    display: block;
+    background: url("../img/border-up.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 70px;
+    width: 100%;
+
+}
 .hashtag  h2::after {
 
     content: "";
