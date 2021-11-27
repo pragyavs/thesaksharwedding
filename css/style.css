@@ -684,9 +684,6 @@ body {
 
 
 
-.event {}
-
-
 .event .border-area {
     margin: 0 auto;
     border: 1px solid #e2e2e2;
@@ -758,6 +755,14 @@ body {
 
 }
 
+.hashtag h2 {
+    font-size: 35px;
+    /* font-family: 'Dancing Script', cursive; */
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 60px;
+    /* color: #ff4545; */
+}
 
 .section-6 .heading h1 {
     font-size: 45px;
