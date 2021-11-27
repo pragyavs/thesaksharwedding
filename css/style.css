@@ -763,6 +763,30 @@ body {
     padding-bottom: 60px;
     /* color: #ff4545; */
 }
+.hashtag  h2::after {
+
+    content: "";
+    display: block;
+    background: url("../img/border.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 45px;
+    width: 100%;
+
+}
+.one h1::after {
+
+    content: "";
+    display: block;
+    background: url("../img/border.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 45px;
+    width: 100%;
+
+}
 
 .section-6 .heading h1 {
     font-size: 45px;
